@@ -71,7 +71,7 @@
 		});
 
 		var uA = navigator.userAgent;
-		var android ="https://sj.qq.com/myapp/";
+		var android ="https://sj.qq.com/myapp/detail.htm?apkName=com.zhimajingxuanw";
 		
 		var isIos = /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent);
 		$(".m-down").click(function(){
