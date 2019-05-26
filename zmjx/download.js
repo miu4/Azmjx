@@ -1,93 +1,285 @@
-    (function () {
+<!DOCTYPE html>
+<html style="font-size: 50px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>芝麻鲸选公用推广页88客服邀请码80086</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="芝麻鲸选注册,芝麻鲸选下载,芝麻鲸选app，芝麻鲸选邀请码,芝麻鲸选注册网,芝麻鲸选官网" />
+<meta name="description" content="芝麻鲸选邀请码官网(芝麻鲸选邀请码80086)是芝麻鲸选内部招收高级总监注册专用网站，芝麻鲸选注册就上芝麻鲸选总监网，唯一注册，唯你所用，注册芝麻鲸选，给你不一样的精彩！" />
 
-	    function GetQueryString(name)
-		{
-			var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
-			var url=window.location.search.substr(1);
-			var r = url.match(reg);
-			return r ? decodeURIComponent(r[2]) : null;
-		}
-		var invitecode = GetQueryString("msi")||GetQueryString("mi") || GetQueryString("invitecode");
-		var evenClick=false;
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>芝麻鲸选公用推广页</title>
+    <script type="text/javascript">
+        (function () {
+            function o() { document.documentElement.style.fontSize = (document.documentElement.clientWidth > 640 ? 640 : document.documentElement.clientWidth) / 20 + "px" }
+            var e = null;
+            window.addEventListener("resize", function () { clearTimeout(e), e = setTimeout(o, 300) }, !1), o()
+        })(window);
+    </script>
+    <style>
+        /*样式重置start*/
+        html, body, div, ul, li, h1, h2, h3, h4, h5, p, em, i, img ,textarea,button{
+            margin: 0px;
+            padding: 0px;
+        }
 
-	    var ua = navigator.userAgent.toLowerCase();
-	    if(ua.match(/iphone/i) == "iphone" || ua.match(/ipad/i) == "ipad"){
-	        $(".copy_btn_android").hide();
-	        $(".copy_btn_ios").show();
-	        var clipboard = new Clipboard(".copy_btn_ios");
-	        clipboard.on("success", function(e){
-				$(".copy_btn_ios").html("复制成功");
-				$(".m-fixed-tips").show();
-				setTimeout(function(){
-					$(".m-fixed-tips").hide();
-				},1500);
-				e.clearSelection();
-				evenClick=true;
-	        });
-	        clipboard.on("error", function (e) {
-	            $(".copy_btn_ios").html("复制失败");
-	            alert("可能由于手机浏览器的版本问题，您并不能进行复制，请手动长按复制");
-				evenClick=true;
-	        });
-	    }else{
-	        $(".copy_btn_android").show();
-	        $(".copy_btn_ios").hide();
-	        var clipboard = new Clipboard(".copy_btn_android");
-	        clipboard.on("success", function(e){
-	            $(".copy_btn_android").html("复制成功");
-				e.clearSelection();
-				$(".m-fixed-tips").show();
-				setTimeout(function(){
-					$(".m-fixed-tips").hide();
-				},1500);
-				evenClick=true;
-	        });
-	        clipboard.on("error", function (e) {
-	            $(".copy_btn_android").html("复制失败");
-	            alert("可能由于手机浏览器的版本问题，您并不能进行复制，请手动长按复制");
-				evenClick=true;
-	        });
-	    }
-	    
-		if(invitecode){
-			$("#copytext").html(invitecode);
-			$("#copy_key_android").html(invitecode);
-			$("#copys-input").html(invitecode);
-		}else{
-			$("#copytext").html(tkl_text);
-			$("#copy_key_android").html(tkl_text);
-			$("#copys-input").html(tkl_text);
-		}
-		
-		$(".m-down").attr('data-clipboard-text', invitecode);
-		var clipboard2 = new Clipboard(".m-down");
-		clipboard2.on('success', function (e) {
-			$(".m-fixed-tips2").html('复制邀请码成功').show();
-			e.clearSelection();
-		});
-		clipboard2.on('error', function (e) {
-			alert("可能由于手机浏览器的版本问题，您并不能进行复制，请手动长按复制");
-			e.clearSelection();
-		});
+        a {
+            text-decoration: none;
+        }
 
-		var uA = navigator.userAgent;
-		var android ="https://sj.qq.com/myapp/detail.htm?apkName=com.zhimajingxuanw";
-		
-		var isIos = /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent);
-		$(".m-down").click(function(){
-			// if(!evenClick){
-			// 	evenClick=true;
-			// 	$(".m-fixed-tips2").show();
-			// 	setTimeout(function(){
-			// 		$(".m-fixed-tips2").hide();
-			// 	},1500);
-			// }else{
-				
-			// }
-			setTimeout(function(){
-				location.href=android;
-			},1500);
-		
-		
-		});
-	})();
+        li {
+            list-style: none;
+        }
+
+        em, i {
+            font-style: normal;
+        }
+        /*全局样式 start*/
+        html {
+            max-width: 750px;
+            min-width: 320px;
+            margin: 0 auto;
+        }
+
+        body {
+            max-width: 750px;
+            min-width: 320px;
+            margin: 0 auto;
+            font: normal normal 0px/18px;
+            font-family: Arial,'Microsoft YaHei';
+            background-color: #fff;
+        }
+        html,body{
+            min-height: 100%;
+        }
+        textarea:focus {
+            outline: none;
+        }
+        .down .m-flash{
+            background-color:#fff;
+            height:15.92rem;
+        }
+        .down .m-flash .m-banner{
+            position:relative;
+            width:15rem;
+            height:15.92rem;
+            overflow: hidden;
+            margin:0 auto;
+        }
+
+        .m-banner .ul-flash {
+            width: 400%;
+            overflow: hidden;
+        }
+
+        .m-banner .ul-flash li {
+            position: relative;
+            float: left;
+            width: 25%;
+            height:15rem;
+        }
+
+        .m-banner .ul-flash li .a_img {
+            display: block;
+            width: 100%;
+            height:15rem;
+        }
+
+        .m-banner .ul-list {
+            position:absolute;
+            right:50%;
+            margin-right:-2rem;
+            bottom: 0.3rem;
+            width: 4rem;
+            height: 0.32rem;
+            font-size:0;
+            text-align:center;
+        }
+        .m-banner .ul-list  li{
+            display:inline-block;
+            width: 0.32rem;
+            height: 0.32rem;
+            margin-right:0.2rem;
+            margin-left:0.2rem;
+            border:0 none;
+            border-radius:100%;
+            background-color:#cccaca;
+        }
+        .m-banner .ul-list  .cur_li{
+            background-color:#cc0244;
+        }
+        .m-copy{
+            padding-top: 0.9rem;
+            height:1.48rem;
+            font-size: 0.1rem;
+            text-align: center;
+        }
+        .m-copy .copy-block{
+            position: relative;
+            display: inline-block;
+            box-sizing: border-box;
+            height: 1.48rem;
+            border:0.04rem solid #2d2c2c;
+            border-radius: 0.75rem;
+            padding-left: 0.56rem;
+            padding-right: 3.5rem;
+            background: url(./btn.png) right center no-repeat;
+            background-size: auto 100%;
+        }
+        .m-copy .copy-block .text{
+            float: left;
+            height: 1.48rem;
+            line-height: 1.48rem;
+            font-size: 0.56rem;
+            color: #2d2c2c;
+        }
+        .m-copy .copy-block .code{
+            float: left;
+            height: 1.48rem;
+            line-height: 1.48rem;
+            font-size: 0.56rem;
+            color: #2d2c2c;
+            width: 5rem;
+        }
+        .m-copy .copy-block .code textarea {
+            display: inline-block;
+            resize: none;
+            box-sizing: border-box;
+            font-size: 0.56rem;
+            height: 1.48rem;
+            line-height: 1.48rem;
+            color: #2d2c2c;
+            text-align: left;
+            background-color: transparent;
+            border: none;
+        }
+        .m-copy .copy-block .code span {
+            display: inline-block;
+            box-sizing: border-box;
+            font-size: 0.56rem;
+            line-height: 1.48rem;
+            color: #2d2c2c;
+            text-align: left;
+        }
+        .m-copy .copy-block .copy_btn{
+            border: 0 none;
+            background: none;
+            position: absolute;
+            top: -0.04rem;
+            right: -0.04rem;
+            width:3.3rem;
+            height: 1.48rem;
+            background: url(./btn.png) center center no-repeat;
+            background-size: 100% 100%;
+            font-size: 0.56rem;
+            color:#ffffff;
+            text-align:center;
+            line-height: 1.48rem;
+        }
+        .m-down{
+            border: 0 none;
+            background: 0 none;
+            outline: none;
+            display: block;
+            width: 5.6rem;
+            height: 1.6rem;
+            border: 0 none;
+            border-radius: 0.8rem;
+            background-color: #db1556;
+            margin:0 auto;
+            line-height: 1.6rem;
+            font-size: 0.6rem;
+            color:#fff;
+            text-align: center;
+        }
+        .m-foot-tips{
+            width: 12.6rem;
+            margin:1rem auto 0;
+            line-height: 0.6rem;
+            font-size: 0.4rem;
+            color:#4c4c4c;
+        }
+        .m-foot-tips i{
+            color: #ff0000;
+        }
+        .m-ab-tips{
+            margin: 0.5rem auto;
+            font-size: 0.5rem;
+            color: #cc0244;
+            text-align: center;
+            height: 0.58rem;
+            width: 12.26rem;
+            background: url(./tips.png) center center no-repeat;
+            background-size: 100% 100%;
+        }
+        .m-fixed-tips,.m-fixed-tips2{
+            display: none;
+            position: fixed;
+            bottom: 12rem;
+            left: 50%;
+            margin-left: -2rem;
+            width: 4rem;
+            height: 1.4rem;
+            line-height: 1.4rem;
+            font-size: 0.6rem;
+            background-color: #4c4c4c;
+            text-align: center;
+            color: #fff;
+        }
+        .m-fixed-tips2{
+            width: 6rem;
+            margin-left: -3rem;
+        }
+    </style>
+    <script type="text/javascript">
+        (function () {
+            function o() { document.documentElement.style.fontSize = (document.documentElement.clientWidth > 750 ? 750 : document.documentElement.clientWidth) / 15 + "px" }
+            var e = null;
+            window.addEventListener("resize", function () { clearTimeout(e), e = setTimeout(o, 300) }, !1), o()
+        })(window);
+    </script>
+</head>
+
+<body id="dom">
+   <div class="down">
+       <div class="m-flash">
+            <div class="m-banner">
+                <ul class="ul-flash">
+                    <li>
+                        <img src="./02.jpg" width="100%" height="100%">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m-copy">
+            <div class="copy-block">
+                <div class="code">
+                    <span id="copytext" style="display:none">80086</span>
+                    <textarea id="copy_key_android" onfocus="return false" maxlength="0" onkeydown="return false;" style="ime-mode:disabled" onkeyup="return false;">80086</textarea>
+                    <div class="copys-input" id="copys-input" style="width:1px; height:1px; overflow:hidden;">80086</div>
+                </div>
+                <button type="button" class="copy_btn copy_btn_android" data-clipboard-action="copy" data-clipboard-target="#copy_key_android" style="">复制</button>
+                <button type="button" class="copy_btn copy_btn_ios" data-clipboard-action="copy" data-clipboard-target="#copys-input" style="display: none;">复制</button>
+            </div>
+        </div>
+        <div class="m-ab-tips">
+
+        </div>
+        <a href="https://sj.qq.com/myapp/detail.htm?apkName=com.zhimajingxuanw">
+        <button class="m-down" data-clipboard-text="80086">应用市场下载APP</button>
+        </a>
+        <div class="m-foot-tips">
+            <i>温馨提示：</i>如点击按钮无法下载，可点击右上角【•••】选择在浏览器中打开下载APP
+            <br/><i>推广链接：</i>HttpS://www.zmjx88.com/?mi=邀请码
+     </div>
+        <br/>
+        <span style="font-size:14px;text-align:center;">粤ICP备14050015号-3<span>
+        <div class="m-fixed-tips">复制成功</div>
+        <div class="m-fixed-tips2">请先复制邀请码</div>
+   </div>
+    <script type="text/javascript" src="./zmjx/jquery-1.8.2.min.js"></script><script type="text/javascript" src="./zmjx/touch-0.2.14.min.js"></script><script type="text/javascript" src="./zmjx/clipboard.min.js"></script><script type="text/javascript" src="./zmjx/openinstall.js"></script><script type="text/javascript" src="./zmjx/download.js"></script>
+
+
+</body></html>
