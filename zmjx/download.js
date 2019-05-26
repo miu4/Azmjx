@@ -71,7 +71,7 @@
 		});
 
 		var uA = navigator.userAgent;
-		var android ="https://sj.qq.com/myapp/detail.htm?apkName=com.zhimajingxuanw";
+		var android ="https://www.pgyer.com/C40D";
 		
 		var isIos = /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent);
 		$(".m-down").click(function(){
