@@ -71,7 +71,7 @@
 		});
 
 		var uA = navigator.userAgent;
-		var android ="https://www.pgyer.com/C40D";
+		var android ="https://android.myapp.com/myapp/detail.htm?apkName=com.mcsoft.zmjx";
 		
 		var isIos = /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent);
 		$(".m-down").click(function(){
