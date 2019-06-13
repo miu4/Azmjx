@@ -7,7 +7,7 @@
 			var r = url.match(reg);
 			return r ? decodeURIComponent(r[2]) : null;
 		}
-		var invitecode = GetQueryString("msi")||GetQueryString("mi") || GetQueryString("invitecode");
+		var invitecode = GetQueryString("msi")||GetQueryString("yqm") || GetQueryString("invitecode");
 		var evenClick=false;
 
 	    var ua = navigator.userAgent.toLowerCase();
